@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>To-Do List Widget</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="todo-container">
+        <h1> To-Do List</h1>
+
+        <div class="input-area">
+            <input type="text" id="taskInput" placeholder="Add a task..." />
+            <button onclick="addTask()">Add</button>
+        </div>
+
+        <ul id="taskList"></ul>
+
+        <div class="progress-area">
+            <label for="progressBar">Progress:</label>
+            <progress id="progressBar" value="0" max="100"></progress>
+        </div>
+
+        <h3> Completed Tasks</h3>
+        <ul id="completedList"></ul>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html
